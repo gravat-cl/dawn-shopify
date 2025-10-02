@@ -247,7 +247,7 @@ a:focus {
 .customer button,
 button[type="submit"] {
   background-color: var(--GETCH-orange);
-  border-color: var(--GETCH-orange);
+  border: none;
   border-radius: var(--GETCH-radius-pill);
   color: #ffffff;
   font-family: 'Changa', sans-serif;
@@ -264,7 +264,7 @@ button[type="submit"] {
 .customer button:hover,
 button[type="submit"]:hover {
   background-color: var(--GETCH-orange-strong);
-  border-color: var(--GETCH-orange-strong);
+  border: none;
   transform: translateY(-1px);
 }
 
@@ -272,7 +272,7 @@ button[type="submit"]:hover {
 .button--secondary,
 .shopify-payment-button__button--branded {
   background-color: transparent;
-  border-color: var(--GETCH-orange);
+  border: 2px solid var(--GETCH-orange);
   color: var(--GETCH-orange);
 }
 
@@ -336,7 +336,7 @@ button[type="submit"]:hover {
 }
 
 .shopify-section:not(#shopify-section-header, #shopify-section-announcement-bar) {
-  padding-block: clamp(4rem, 7vw, 8rem);
+  padding-block: 0;
 }
 
 .title-wrapper-with-link {
@@ -356,6 +356,15 @@ button[type="submit"]:hover {
 .rich-text__heading {
   font-size: clamp(2.8rem, 4vw, 4.6rem);
   color: var(--GETCH-ink);
+}
+
+.rich-text__blocks {
+  justify-items: center;
+  text-align: center;
+}
+
+.rich-text__buttons {
+  justify-content: center;
 }
 
 .rich-text__text {
@@ -460,6 +469,15 @@ button[type="submit"]:hover {
   display: grid;
   gap: 2.4rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.section-header {
+  margin-bottom: 0 !important;
+}
+
+.section-header .header {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
 }
 
 .home-feature-grid__item {
@@ -820,7 +838,7 @@ button[type="submit"]:hover {
   }
 
   .shopify-section:not(#shopify-section-header, #shopify-section-announcement-bar) {
-    padding-block: clamp(3.2rem, 12vw, 5rem);
+    padding-block: 0;
   }
 
   .home-hero__inner {
