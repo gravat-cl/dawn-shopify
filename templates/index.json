@@ -17,12 +17,12 @@
       "type": "home-hero",
       "settings": {
         "preheading": "Sistema digital",
-        "heading": "Únicos proveedores de insumos premium para grabado de patentes en Chile",
-        "description": "<p>Automatiza el grabado de patentes con nuestra plataforma GETCH® y entrega resultados consistentes en minutos.</p>",
-        "primary_button_label": "Ver planes",
+        "heading": "Impulsa tu negocio de grabado con GETCH®",
+        "description": "<p>Somos el aliado certificado por la Ley 21.601. Gestiona tus grabados con rapidez, soporte técnico experto y productos aprobados para cada inspección.</p>",
+        "primary_button_label": "Ver planes certificados",
         "primary_button_link": "/collections/all",
-        "secondary_button_label": "Comunícate con ventas",
-        "secondary_button_link": "/pages/contacto",
+        "secondary_button_label": "Habla con un asesor",
+        "secondary_button_link": "mailto:ventas@getch.cl",
         "background_image": "",
         "overlay_color": "#141414",
         "overlay_opacity": 55,
@@ -34,8 +34,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Enviamos a todo Chile",
-            "text": "Logística express y seguimiento en cada despacho."
+            "title": "Cobertura nacional respaldada",
+            "text": "Despachamos insumos originales y entregamos respaldo en todas las regiones de Chile."
           }
         },
         "highlight_2": {
@@ -43,8 +43,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Soporte experto",
-            "text": "Acompañamiento de lunes a domingo para tu operación."
+            "title": "Equipo técnico a tu lado",
+            "text": "Capacitación, soporte en línea y asistencia para cumplir cada normativa vigente."
           }
         },
         "highlight_3": {
@@ -52,8 +52,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "App GETCH® incluida",
-            "text": "Genera plantillas precisas desde cualquier dispositivo."
+            "title": "Plataforma GETCH® incluida",
+            "text": "Genera y registra patentes con trazabilidad completa desde cualquier dispositivo."
           }
         }
       },
@@ -67,8 +67,8 @@
       "type": "home-feature-grid",
       "settings": {
         "preheading": "Sistema digital",
-        "heading": "Ahorra tiempo valioso generando plantillas exactas",
-        "description": "<p>Deja atrás procesos manuales y centraliza toda la operación en una experiencia pensada para grabadores profesionales.</p>",
+        "heading": "Confianza que respalda tu servicio de grabado",
+        "description": "<p>GETCH® es la primera plataforma integral que combina insumos certificados, software especializado y asesoría normativa para que tus clientes confíen en cada intervención.</p>",
         "button_label": "",
         "button_style": "secondary",
         "button_link": "",
@@ -80,8 +80,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Fácil",
-            "text": "<p>Interfaz intuitiva para crear etiquetas en segundos.</p>",
+            "title": "Procesos claros y guiados",
+            "text": "<p>Flujos paso a paso que reducen errores y aseguran resultados consistentes en el taller.</p>",
             "link_label": "",
             "link": ""
           }
@@ -91,8 +91,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Simple",
-            "text": "<p>Conectada a tu impresora térmica sin configuraciones complejas.</p>",
+            "title": "Atención humana real",
+            "text": "<p>Un ejecutivo te acompaña desde la instalación hasta la operación diaria para que nunca estés solo.</p>",
             "link_label": "",
             "link": ""
           }
@@ -102,8 +102,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Rápido",
-            "text": "<p>Resultados consistentes listos para instalar en cada vehículo.</p>",
+            "title": "Ventas y postventa confiables",
+            "text": "<p>Inventario disponible, reposición rápida y garantía directa del fabricante para cada entrega.</p>",
             "link_label": "",
             "link": ""
           }
@@ -134,20 +134,20 @@
         "welcome_heading": {
           "type": "heading",
           "settings": {
-            "heading": "Bienvenido a GETCH.cl",
+            "heading": "Elegido por los talleres que necesitan cumplir y crecer",
             "heading_size": "h1"
           }
         },
         "welcome_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Tu aplicación móvil para generar plantillas digitales de grabado de patentes en vidrios y espejos. Personaliza y protege cada vehículo con un proceso confiable, rápido y repetible.</p>"
+            "text": "<p>Cada kit y cada fórmula GETCH® está certificado para cumplir con la Ley 21.601. Recibes insumos seguros, software trazable y soporte técnico para convertir el grabado en una línea de negocio rentable.</p>"
           }
         },
         "welcome_button": {
           "type": "button",
           "settings": {
-            "button_label": "Solicitar demo",
+            "button_label": "Agenda una demostración de la plataforma",
             "button_link": "/pages/contacto",
             "button_style_secondary": false
           }
@@ -183,7 +183,7 @@
       "type": "home-feature-grid",
       "settings": {
         "preheading": "Diferenciales",
-        "heading": "Impulsa tu negocio de grabado",
+        "heading": "Por qué los grabadores profesionales prefieren GETCH®",
         "description": "",
         "button_label": "Compra un plan",
         "button_style": "primary",
@@ -196,8 +196,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Patentes más logo",
-            "text": "<p>Profesionales y de calidad para cada entrega.</p>",
+            "title": "Calidad certificada",
+            "text": "<p>Kits avalados y controlados para entregar un grabado uniforme y aprobado.</p>",
             "link_label": "",
             "link": ""
           }
@@ -207,8 +207,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Súmate a los expertos",
-            "text": "<p>La herramienta digital que usan los grabadores líderes del país.</p>",
+            "title": "Soporte legal y técnico",
+            "text": "<p>Te mantenemos al día con las exigencias de la autoridad y te asistimos en terreno.</p>",
             "link_label": "",
             "link": ""
           }
@@ -218,8 +218,8 @@
           "settings": {
             "icon": "",
             "icon_alt": "",
-            "title": "Sé libre de grabar",
-            "text": "<p>Producción ágil con plantillas ilimitadas disponibles 24/7.</p>",
+            "title": "Escala sin perder calidad",
+            "text": "<p>Procesos digitalizados, inventario garantizado y monitoreo para que atiendas más vehículos con tranquilidad.</p>",
             "link_label": "",
             "link": ""
           }
@@ -234,11 +234,11 @@
     "cta_banner": {
       "type": "home-cta-banner",
       "settings": {
-        "heading": "Imprime sin límites desde cualquier dispositivo móvil",
-        "description": "<p>Ten la libertad de generar patentes donde estés y con la cantidad de etiquetas que necesites.</p>",
-        "button_label": "Descargar app",
+        "heading": "Confirma tu stock y soporte para el próximo ciclo de grabado",
+        "description": "<p>Nuestro equipo te ayuda a planificar compras, capacitar operadores y asegurar que cada adhesivo cumpla la normativa.</p>",
+        "button_label": "Habla con un especialista GETCH®",
         "button_style": "secondary",
-        "button_link": "/pages/app-gbdx",
+        "button_link": "mailto:ventas@getch.cl",
         "color_scheme": "scheme-3"
       }
     },
@@ -246,8 +246,8 @@
       "type": "home-plan-grid",
       "settings": {
         "preheading": "#Precios",
-        "heading": "Lo que necesitas grabar, a un precio que puedas pagar",
-        "description": "<p>Potencia tu negocio desde $30.000 por plan y escala tu capacidad con créditos adicionales.</p>",
+        "heading": "Planes diseñados para mantener tu operación siempre certificada",
+        "description": "<p>Elige la cuota de patentes que necesitas y recibe soporte técnico, insumos originales y actualizaciones del software GETCH®.</p>",
         "color_scheme": "scheme-2"
       },
       "blocks": {
@@ -258,7 +258,7 @@
             "title": "PLAN BASE",
             "price": "$30.000 + IVA",
             "price_suffix": "Hasta 15 patentes",
-            "features": "1 Usuario\nImpresión ilimitada\n+100 logos de marcas",
+            "features": "Hasta 15 patentes mensuales\n1 usuario operador\nSoporte remoto incluido\n+100 logos de marcas oficiales",
             "button_label": "¡La quiero!",
             "button_link": "/collections/all"
           }
@@ -270,7 +270,7 @@
             "title": "PLAN ESTÁNDAR",
             "price": "$45.000 + IVA",
             "price_suffix": "Hasta 25 patentes",
-            "features": "1 Usuario\nImpresión ilimitada\n+100 logos de marcas",
+            "features": "Hasta 25 patentes mensuales\n1 usuario operador\nAsistencia en implementación\n+100 logos de marcas oficiales",
             "button_label": "¡La quiero!",
             "button_link": "/collections/all"
           }
@@ -282,7 +282,7 @@
             "title": "PLAN PRO",
             "price": "$75.000 + IVA",
             "price_suffix": "Hasta 50 patentes",
-            "features": "1 Usuario\nImpresión ilimitada\n+150 logos de marcas",
+            "features": "Hasta 50 patentes mensuales\n1 usuario operador\nCapacitación prioritaria\n+150 logos certificados",
             "button_label": "¡La quiero!",
             "button_link": "/collections/all"
           }
@@ -294,7 +294,7 @@
             "title": "PLAN FULL",
             "price": "$100.000 + IVA",
             "price_suffix": "Hasta 100 patentes",
-            "features": "2 Usuarios\nImpresión ilimitada\n+200 logos de marcas",
+            "features": "Hasta 100 patentes mensuales\n2 usuarios operadores\nSoporte técnico extendido\n+200 logos certificados",
             "button_label": "¡La quiero!",
             "button_link": "/collections/all"
           }
@@ -321,20 +321,20 @@
         "pricing_heading": {
           "type": "heading",
           "settings": {
-            "heading": "¡Todos nuestros planes permiten imprimir ilimitadamente las plantillas generadas!",
+            "heading": "¡Todos los planes GETCH® aseguran trazabilidad y respaldo para tus clientes!",
             "heading_size": "h2"
           }
         },
         "pricing_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Comunícate con ventas y elige el plan que mejor se adapte a tus metas.</p>"
+            "text": "<p>Conversamos contigo para definir el volumen ideal y garantizar entregas a tiempo en cada región.</p>"
           }
         },
         "pricing_cta": {
           "type": "button",
           "settings": {
-            "button_label": "Hablar con ventas",
+            "button_label": "Coordinar llamada con ventas",
             "button_link": "mailto:hablemos@GETCH.cl",
             "button_style_secondary": false,
             "button_label_2": "",

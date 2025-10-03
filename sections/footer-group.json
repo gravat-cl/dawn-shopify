@@ -8,22 +8,22 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Tienda",
             "menu": "footer"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Ayuda",
             "menu": "footer"
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Nuestra misión",
+            "subtext": "<p>Comparte tu consulta con nosotros y recibe soporte personalizado para tu negocio de grabado de patentes.<\/p>"
           }
         }
       },
@@ -35,7 +35,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Suscríbete a nuestras novedades",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

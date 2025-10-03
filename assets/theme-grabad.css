@@ -19,7 +19,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: var(--GETCH-ink);
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
+  line-height: 1.6;
 }
 
 .cyber-popup {
@@ -68,9 +69,9 @@ body {
 
 .cyber-popup__badge {
   font-family: 'Changa', sans-serif;
-  letter-spacing: 0.5rem;
-  text-transform: uppercase;
-  font-size: 1.2rem;
+  letter-spacing: 0.18rem;
+  text-transform: none;
+  font-size: 1.4rem;
   color: var(--GETCH-orange-strong);
   margin: 0;
 }
@@ -78,15 +79,17 @@ body {
 .cyber-popup__heading {
   font-family: 'Changa', sans-serif;
   font-size: clamp(2.6rem, 4vw, 3.6rem);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-transform: none;
   margin: 0;
   color: var(--GETCH-ink);
+  line-height: 1.3;
 }
 
 .cyber-popup__message {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: var(--GETCH-slate);
+  line-height: 1.7;
 }
 
 .cyber-popup__cta {
@@ -145,38 +148,45 @@ body {
 
 .home-hero__eyebrow {
   font-family: 'Changa', sans-serif;
-  font-size: 1.4rem;
-  letter-spacing: 0.6rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.18rem;
+  text-transform: none;
   margin: 0 0 1.6rem;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .home-hero__heading {
   font-family: 'Changa', sans-serif;
-  font-size: clamp(3.6rem, 5vw, 6rem);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: clamp(3.4rem, 4.6vw, 5.2rem);
+  letter-spacing: 0.02em;
+  text-transform: none;
   margin: 0 0 2rem;
+  line-height: 1.2;
   color: #ffffff;
 }
 
 .home-hero__description {
-  font-size: 1.7rem;
-  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 2.4rem;
 }
 
 .home-hero__actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.4rem;
+  gap: 1.6rem;
   margin-bottom: 2.4rem;
+}
+
+.home-hero__inner > *:last-child {
+  margin-bottom: 0;
 }
 
 .home-hero__highlights {
   display: grid;
   gap: 1.2rem;
+  max-width: 420px;
 }
 
 .home-hero__highlight {
@@ -197,15 +207,15 @@ body {
 
 .home-hero__highlight-title {
   font-family: 'Changa', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  text-transform: none;
+  letter-spacing: 0.03em;
   margin: 0;
   color: #ffffff;
 }
 
 .home-hero__highlight-subtext {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -252,9 +262,33 @@ button[type="submit"] {
   color: #ffffff;
   font-family: 'Changa', sans-serif;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  padding: 1.2rem 2.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.button::before,
+.button::after,
+.shopify-challenge__button::before,
+.shopify-challenge__button::after,
+.shopify-payment-button__button--unbranded::before,
+.shopify-payment-button__button--unbranded::after,
+.customer button::before,
+.customer button::after {
+  box-shadow: none !important;
+}
+
+.button:focus-visible,
+.shopify-challenge__button:focus-visible,
+.shopify-payment-button__button--unbranded:focus-visible,
+.customer button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.35rem rgba(255, 107, 0, 0.35);
 }
 
 .button:hover,
@@ -272,8 +306,10 @@ button[type="submit"]:hover {
 .button--secondary,
 .shopify-payment-button__button--branded {
   background-color: transparent;
-  border: 2px solid var(--GETCH-orange);
+  border: none;
   color: var(--GETCH-orange);
+  text-transform: none;
+  letter-spacing: 0.04em;
 }
 
 .badge,
@@ -351,11 +387,18 @@ button[type="submit"]:hover {
 .rich-text {
   border-radius: var(--GETCH-radius-lg);
   box-shadow: var(--GETCH-shadow-soft);
+  max-width: min(960px, 92vw);
+  margin: 0 auto;
+  padding: clamp(2.4rem, 5vw, 4.8rem);
+  display: grid;
+  gap: 1.6rem;
 }
 
 .rich-text__heading {
   font-size: clamp(2.8rem, 4vw, 4.6rem);
   color: var(--GETCH-ink);
+  letter-spacing: 0.02em;
+  line-height: 1.3;
 }
 
 .rich-text__blocks {
@@ -365,11 +408,14 @@ button[type="submit"]:hover {
 
 .rich-text__buttons {
   justify-content: center;
+  gap: 1.2rem;
 }
 
 .rich-text__text {
   max-width: 70ch;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .rich-text__buttons {
@@ -439,18 +485,19 @@ button[type="submit"]:hover {
 
 .home-feature-grid__eyebrow {
   font-family: 'Changa', sans-serif;
-  letter-spacing: 0.5rem;
-  text-transform: uppercase;
-  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  text-transform: none;
+  font-size: 1.4rem;
   color: var(--GETCH-orange-strong);
   margin: 0;
 }
 
 .home-feature-grid__heading {
   font-family: 'Changa', sans-serif;
-  font-size: clamp(2.8rem, 4vw, 4.6rem);
-  letter-spacing: 0.06em;
+  font-size: clamp(2.6rem, 3.5vw, 4.2rem);
+  letter-spacing: 0.02em;
   margin: 0;
+  line-height: 1.25;
   color: var(--GETCH-ink);
 }
 
@@ -458,7 +505,8 @@ button[type="submit"]:hover {
   max-width: 720px;
   margin: 0 auto;
   color: var(--GETCH-slate);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
+  line-height: 1.7;
 }
 
 .home-feature-grid__actions {
@@ -469,6 +517,8 @@ button[type="submit"]:hover {
   display: grid;
   gap: 2.4rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 0 auto;
+  align-items: stretch;
 }
 
 .section-header {
@@ -498,22 +548,24 @@ button[type="submit"]:hover {
 
 .home-feature-grid__item-title {
   font-family: 'Changa', sans-serif;
-  font-size: 1.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
   margin: 0;
   color: var(--GETCH-ink);
+  line-height: 1.4;
 }
 
 .home-feature-grid__item-text {
   color: var(--GETCH-slate);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 .home-feature-grid__item-link {
   font-family: 'Changa', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  text-transform: none;
+  letter-spacing: 0.05em;
   color: var(--GETCH-orange);
 }
 
@@ -543,10 +595,10 @@ button[type="submit"]:hover {
   background: var(--GETCH-orange);
   color: #ffffff;
   font-family: 'Changa', sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  padding: 0.4rem 1.8rem 0.4rem 1.4rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  padding: 0.6rem 1.8rem 0.6rem 1.4rem;
   clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
   box-shadow: 0 8px 18px rgba(255, 107, 0, 0.32);
   z-index: 3;
@@ -604,19 +656,20 @@ button[type="submit"]:hover {
 
 .home-plan-grid__eyebrow {
   font-family: 'Changa', sans-serif;
-  letter-spacing: 0.45rem;
-  text-transform: uppercase;
-  font-size: 1.3rem;
+  letter-spacing: 0.18rem;
+  text-transform: none;
+  font-size: 1.4rem;
   color: var(--GETCH-orange-strong);
   margin: 0;
 }
 
 .home-plan-grid__heading {
   font-family: 'Changa', sans-serif;
-  font-size: clamp(3rem, 4.5vw, 4.8rem);
-  letter-spacing: 0.06em;
+  font-size: clamp(2.8rem, 4vw, 4.4rem);
+  letter-spacing: 0.02em;
   margin: 0;
   color: var(--GETCH-ink);
+  line-height: 1.25;
 }
 
 .home-plan-grid__description {
@@ -624,12 +677,15 @@ button[type="submit"]:hover {
   margin: 0 auto;
   font-size: 1.6rem;
   color: var(--GETCH-slate);
+  line-height: 1.7;
 }
 
 .home-plan-grid__items {
   display: grid;
   gap: 2.4rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 0 auto;
+  align-items: stretch;
 }
 
 .home-plan-card {
@@ -641,6 +697,7 @@ button[type="submit"]:hover {
   display: grid;
   gap: 1.4rem;
   border: 1px solid rgba(255, 107, 0, 0.18);
+  height: 100%;
 }
 
 .home-plan-card__badge {
@@ -659,11 +716,12 @@ button[type="submit"]:hover {
 
 .home-plan-card__title {
   font-family: 'Changa', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 1.8rem;
+  text-transform: none;
+  letter-spacing: 0.04em;
+  font-size: 2rem;
   margin: 0;
   color: var(--GETCH-ink);
+  line-height: 1.35;
 }
 
 .home-plan-card__price {
@@ -675,15 +733,15 @@ button[type="submit"]:hover {
 
 .home-plan-card__price-amount {
   font-family: 'Changa', sans-serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: var(--GETCH-orange);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.03em;
 }
 
 .home-plan-card__price-suffix {
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  letter-spacing: 0.28em;
+  font-size: 1.4rem;
+  text-transform: none;
+  letter-spacing: 0.12em;
   color: var(--GETCH-slate);
 }
 
@@ -695,6 +753,7 @@ button[type="submit"]:hover {
   gap: 0.6rem;
   font-size: 1.5rem;
   color: var(--GETCH-slate);
+  line-height: 1.6;
 }
 
 .home-plan-card__features li::before {
@@ -705,6 +764,8 @@ button[type="submit"]:hover {
 
 .home-plan-card__actions {
   margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .home-cta-banner {
@@ -722,20 +783,26 @@ button[type="submit"]:hover {
   box-shadow: 0 20px 48px rgba(17, 17, 17, 0.12);
 }
 
+.home-cta-banner__inner > *:last-child {
+  margin-bottom: 0;
+}
+
 .home-cta-banner__heading {
   font-family: 'Changa', sans-serif;
-  font-size: clamp(3rem, 5vw, 4.4rem);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: clamp(2.8rem, 4.5vw, 4rem);
+  letter-spacing: 0.02em;
+  text-transform: none;
   margin: 0;
   color: #ffffff;
+  line-height: 1.3;
 }
 
 .home-cta-banner__description {
   font-size: 1.6rem;
   margin: 0 auto;
   max-width: 640px;
-  color: rgba(255, 255, 255, 0.86);
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.7;
 }
 
 .multicolumn.background-primary {
@@ -800,6 +867,15 @@ button[type="submit"]:hover {
 
 .footer-block__details-content a:hover {
   color: var(--GETCH-orange);
+}
+
+.footer-block__details-content .list-menu__item--link,
+.footer-block__details-content .list-menu__item--active,
+.footer-block__details-content .list-menu__item--link:hover,
+.copyright__content a,
+.copyright__content a:hover {
+  color: #ffffff !important;
+  opacity: 1;
 }
 
 .newsletter-form__field-wrapper .field__input {
